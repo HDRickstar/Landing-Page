@@ -97,7 +97,7 @@ a{
 }
 
 .top-random{
-    font-size: 6em;
+    font-size: 4em;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
@@ -115,4 +115,39 @@ a{
 
 .illustration-subtext{
     color: grey;
+}
+
+/*end of random info section */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 5em;
+}
+
+
+.thor-quote{
+    text-align: center;
+    font-size: 4em;
+    color: #1f2937;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.author{
+    font-size: 3em;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+/* end of quote */
+
+.ctc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
