@@ -119,6 +119,7 @@ a{
 
 /*end of random info section */
 
+/* start of quote section */
 .quote{
     display: flex;
     flex-direction: column;
@@ -135,6 +136,8 @@ a{
     color: #1f2937;
     font-weight: 300;
     margin-bottom: 0;
+    font-style: italic;
+
 }
 
 .author{
@@ -150,4 +153,55 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2em 4em;
 }
+
+.ctc{
+    display: flex;
+    background-color: #3882F6;
+    padding:2em 4em ;
+    margin: 2em 3em;
+    border-radius: 1em;
+}
+
+.subheading{
+    font-size: 6em;
+    margin: 0;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.extra-text{
+    margin: 0;
+    font-size: 3em;
+    color: lightgray;
+}
+
+.ctc button{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border: 0.12em #F9FAF8 solid;
+    border-radius: 0.5em;
+    color: #F9FAF8;
+    padding: 0.5em;
+}
+
+.bottom-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6em;
+}
+
+.sub-container{
+margin: 0 6em;
+}
+
+/* end of ctc section */
+
+/* start of footer */
+
+
+
+
