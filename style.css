@@ -89,4 +89,30 @@ a{
 
 /* The start of the random information secion */
 
+.random-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.top-random{
+    font-size: 6em;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.pictures{
+    display: flex;
+    font-size: 3em;
+    gap: 2em;
+}
+.pictures img{
+    border: 0.1em #3882F6 solid;
+    border-radius: 0.5em;
+}
+
+.illustration-subtext{
+    color: grey;
+}
