@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6px;
+    margin: 0;
+}
+/* the start of the header links and logo */
+.veryTop {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.veryTop img{
+    font-size: 1.25em;
+}
+
+.veryTop .right-links{
+    display: flex;
+    gap: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.veryTop img {
+    font-weight: 900;
+}
+
+/* The start of top text */
+
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 5em;
+    margin-top: 10em;
+    gap: 10em;
+
+}
+
+.hero-text {
+    font-size: 8em;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 3em;
+    color: lightgrey;
+}
+
+.placeholder{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+
+}
+
+.logo-text{
+    font-size: 3em;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 0.5em;
+    border: none;
+    font-size: 3em;
+    padding: 0.5em 1em;
+}
+
+/* The start of the random information secion */
+
+
